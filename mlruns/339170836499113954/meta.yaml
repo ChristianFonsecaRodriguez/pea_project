@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/339170836499113954
+creation_time: 1698972585986
+experiment_id: '339170836499113954'
+last_update_time: 1698972585986
+lifecycle_stage: active
+name: model_rent_lgbm

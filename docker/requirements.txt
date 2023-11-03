@@ -1,0 +1,8 @@
+pandas
+numpy
+fastapi
+uvicorn
+pydantic
+pycaret
+boto3
+mlflow

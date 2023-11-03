@@ -1,0 +1,32 @@
+{
+    "family":"pea-task",
+    "networkMode":"awsvpc",
+    "containerDefinitions":[
+       {
+          "name":"pea-dmc",
+          "image":"270280204765.dkr.ecr.us-east-1.amazonaws.com/pea-dmc:latest",
+          "essential":true,
+          "portMappings":[
+             {
+                "containerPort":8000,
+                "hostPort":8000,
+                "protocol":"tcp"
+             }
+          ]
+       }
+    ],
+    "requiresCompatibilities":[
+       "FARGATE"
+    ],
+    "cpu":"1vCPU",
+    "memory":"5GB",
+    "executionRoleArn":"arn:aws:iam::270280204765:role/pea-dmc-role"
+}
+
+
+
+
+
+
+
+
